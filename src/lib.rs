@@ -1,6 +1,7 @@
 use borsh::{BorshDeserialize, BorshSerialize};
 use solana_program::{account_info::AccountInfo, entrypoint::ProgramResult, msg, pubkey::Pubkey};
 
+pub mod check;
 pub mod init;
 
 #[derive(BorshSerialize, BorshDeserialize, Debug)]
